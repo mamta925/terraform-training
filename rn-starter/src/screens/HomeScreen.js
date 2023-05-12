@@ -41,6 +41,12 @@ const HomeScreen = (props) => {
           }
           title="Go to multi Color Screen"
     />
+      <Button 
+          onPress={()=>
+          props.navigation.navigate("Name")
+          }
+          title="Go to Text Demo"
+    />
     </View>);
 };
 
